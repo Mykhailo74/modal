@@ -45,6 +45,7 @@
 .modal-product-item {
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
     background: #FAF3E7;
     height: 119px;
     padding: 0;
@@ -96,6 +97,7 @@
     padding: 12px 24px;
     align-items: center;
     gap: 15px;
+    margin-top: 20px;
     border-radius: 100px;
     background: #FC8A11;
 }

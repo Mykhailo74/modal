@@ -16,6 +16,15 @@
     box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
 }
 
+.container {
+    /* max-width: 375px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
 .modal {
     display: flex;
     flex-direction: column;
@@ -40,15 +49,20 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
 }
 
 .modal-product-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-shrink: 0;
     background: #FAF3E7;
+    max-width: 295px;
     height: 119px;
     padding: 0;
+    border-radius: 20px;
 }
 
 .modal-product-text {
@@ -56,14 +70,29 @@
     flex-direction: column;
     padding-top: 20px;
     padding-left: 20px;
-    gap: 2px;
+    /* gap: 2px; */
 }
 
-/* .modal-product-title {
-    padding-top: 20px;
-    padding-left: 20px;
+.modal-product-title {
+    color: #141414;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
     margin-bottom: 2px;
-} */
+}
+
+.modal-product-plant {
+    color: #141414;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.28px;
+}
 
 .modal-product-image {
     padding-top: 33px;
@@ -72,6 +101,10 @@
 .modal-checkbox {
     padding-top: 24px;
     padding-right: 20px;
+}
+
+.check-text {
+    color: #A1C487;
 }
 
 .modal-form {
@@ -84,20 +117,70 @@
 .modal-input {
     max-width: 375px;
     width: 100%;
+    max-width: 295px;
+    height: 46px;
     border-radius: 100px;
     border: 1px solid rgba(20, 20, 20, 0.30);
+    padding-left: 24px;
+    color: rgba(20, 20, 20, 0.50);
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
 }
 
 .modal-comment {
     resize: none;
+    max-width: 375px;
+    width: 100%;
+    width: 295px;
+    height: 132px;
+    border-radius: 20px;
+    border: 1px solid rgba(20, 20, 20, 0.30);
+    color: rgba(20, 20, 20, 0.50);
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
+    padding-left: 24px;
+    padding-top: 24px;
 }
 
 .send-button {
     display: inline-flex;
     padding: 12px 24px;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
     margin-top: 20px;
+    padding-bottom: 20px;
+    width: 92px;
     border-radius: 100px;
     background: #FC8A11;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 766px;
+    }
+}
+
+
+
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
 }

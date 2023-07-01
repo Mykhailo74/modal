@@ -36,6 +36,7 @@
     box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
 }
 
+/* modal-header */
 .modal-header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,7 @@
     margin-bottom: 40px;
 }
 
+/* product */
 .modal-product-list {
     display: flex;
     flex-direction: column;
@@ -98,15 +100,39 @@
     padding-top: 33px;
 }
 
+/* checkbox */
 .modal-checkbox {
     padding-top: 24px;
     padding-right: 20px;
 }
 
-.check-text {
-    color: #A1C487;
+.modal-check {
+    /* display: none; */
 }
 
+.label-check {
+    position: relative;
+    background-image: url();
+}
+
+.modal-check:checked {
+    background-image: url(../images/icons.svg/#icon-check);
+}
+
+.modal-check:checked+.label-check {
+    display: block;
+}
+
+/* .accept-check {
+    position: absolute;
+    background-image: url(img/off);
+}
+
+.modal-check:checked+.accept-check {
+    background-image: url(../images/icons.svg/#icon-check);
+} */
+
+/* modal-form */
 .modal-form {
     display: flex;
     flex-direction: column;
@@ -150,6 +176,7 @@
     padding-top: 24px;
 }
 
+/* button */
 .send-button {
     display: inline-flex;
     padding: 12px 24px;
@@ -171,7 +198,35 @@
     }
 }
 
+.container {
+    width: 704px;
+}
 
+.modal-header {
+    max-width: 644px;
+    margin-bottom: 40px;
+}
+
+.modal-close {}
+
+.modal-product-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.modal-product-item {
+    max-width: 200px;
+    height: 250px;
+    display: block;
+    justify-content: column;
+}
+
+
+.modal-checkbox {
+    padding-top: 20px;
+    padding-right: 20px;
+}
 
 
 

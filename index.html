@@ -17,9 +17,9 @@
   </head>
   <body>
     <!-- Modal -->
-    <!-- Modal-header -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal container">
+        <!-- Modal-header -->
         <div class="modal-header">
           <h1 class="modal-title">Your Order</h1>
           <button type="button" class="modal-close" data-modal-close>
@@ -146,16 +146,18 @@
                 id="user-name"
                 class="modal-input"
                 placeholder="Enter full name..."
+                pattern="[А-Яа-я]*?\s[А-Яа-я]*?\s[А-Яа-я]*"
                 required
               />
             </div>
             <div class="input">
               <input
-                type="text"
+                type="email"
                 name="user-tel"
                 id="user-tel"
                 class="modal-input"
                 placeholder="Enter email..."
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                 required
               />
             </div>
@@ -166,6 +168,7 @@
                 id="user-email"
                 class="modal-input"
                 placeholder="Enter card.."
+                pattern=""
                 required
               />
             </div>

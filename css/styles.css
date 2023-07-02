@@ -1,3 +1,5 @@
+/* Mobile */
+
 @media screen and (min-width: 426px) {
     .container {
         max-width: 396px;
@@ -44,9 +46,34 @@
     width: 100%;
     max-width: 295px;
     margin-bottom: 40px;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 28px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+}
+
+.modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: #141414;
+    background-color: #FFF;
 }
 
 /* product */
+
 .modal-product-list {
     display: flex;
     flex-direction: column;
@@ -102,7 +129,7 @@
 
 /* checkbox */
 .modal-checkbox {
-    padding-top: 24px;
+    padding-top: 22px;
     padding-right: 20px;
 }
 
@@ -138,11 +165,16 @@
     flex-direction: column;
     gap: 14px;
     width: 100%;
+    margin-top: 40px;
+}
+
+.input {
+    width: 100%;
 }
 
 .modal-input {
-    max-width: 375px;
     width: 100%;
+    width: 295px;
     max-width: 295px;
     height: 46px;
     border-radius: 100px;
@@ -159,9 +191,8 @@
 
 .modal-comment {
     resize: none;
-    max-width: 375px;
+    max-width: 295px;
     width: 100%;
-    width: 295px;
     height: 132px;
     border-radius: 20px;
     border: 1px solid rgba(20, 20, 20, 0.30);
@@ -190,6 +221,7 @@
 }
 
 
+
 /* TABLET */
 
 @media screen and (min-width:768px) {
@@ -197,7 +229,6 @@
         max-width: 766px;
     }
 }
-
 
 /* .container {
     width: 704px;

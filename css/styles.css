@@ -4,154 +4,154 @@
   .container {
     max-width: 396px;
   }
-
-
-  .backdrop {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
-      0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
-      0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
-      0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
-      0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
-      0px 0px 223px 0px rgba(0, 0, 0, 0.05);
-  }
-
-  .container {
-    /* max-width: 375px; */
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
-  }
-
-  .modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
-      0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
-      0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
-      0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
-      0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
-      0px 0px 223px 0px rgba(0, 0, 0, 0.05);
-  }
-
-  /* modal-header */
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 295px;
-    margin-bottom: 40px;
-    padding-bottom: 0;
-  }
-
-  .modal-title {
-    color: #141414;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-    font-size: 28px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -1.12px;
-    text-transform: uppercase;
-  }
-
-  .modal-close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    cursor: pointer;
-    border: none;
-    color: #141414;
-    background-color: #fff;
-  }
-
-  /* CHECK-BOX */
-  h3,
-  p {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .modal-check {
-    display: flex;
-    gap: 12px;
-  }
-
-  .modal-check-product {
-    width: 295px;
-    height: 119px;
-    background-color: #faf3e7;
-    border-radius: 20px;
-    position: relative;
-  }
-
-  .item-check {
-    display: inline-flex;
-    border: 2px solid #a1c487;
-    border-radius: 25%;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
-    position: absolute;
-    right: 14px;
-    top: 14px;
-  }
-
-  .modal-product-input:checked+.check-product-label>.item-check {
-    background-color: #faf3e7;
-    border: none;
-    fill: #a1c487;
-    border: 2px solid #a1c487;
-    border-radius: 25%;
-  }
-
-  .product-text {
-    padding: 20px 0 0 20px;
-  }
-
-  .product-text-article {
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.72px;
-  }
-
-  .product-text-paragraph {
-    margin-top: 2px;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.28px;
-  }
-
-  .product-img {
-    position: absolute;
-    top: 33px;
-    right: 30px;
-  }
 }
+
+.backdrop {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
+    0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
+    0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
+    0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  /* max-width: 375px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
+    0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
+    0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
+    0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* modal-header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 295px;
+  margin-bottom: 40px;
+  padding-bottom: 0;
+}
+
+.modal-title {
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 28px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+}
+
+.modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: #141414;
+  background-color: #fff;
+}
+
+/* CHECK-BOX */
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.modal-check {
+  display: flex;
+  gap: 12px;
+}
+
+.modal-check-product {
+  width: 295px;
+  height: 119px;
+  background-color: #faf3e7;
+  border-radius: 20px;
+  position: relative;
+}
+
+.item-check {
+  display: inline-flex;
+  border: 2px solid #a1c487;
+  border-radius: 25%;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+
+.modal-product-input:checked+.check-product-label>.item-check {
+  background-color: #faf3e7;
+  border: none;
+  fill: #a1c487;
+  border: 2px solid #a1c487;
+  border-radius: 25%;
+}
+
+.product-text {
+  padding: 20px 0 0 20px;
+}
+
+.product-text-article {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+}
+
+.product-text-paragraph {
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.product-img {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+}
+
 
 @media screen and (max-width: 376px) {
   .modal-check {

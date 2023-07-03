@@ -29,114 +29,91 @@
           </button>
         </div>
         <!-- Modal-product -->
-        <div class="modal-product">
-          <ul class="modal-product-list">
-            <li class="modal-product-item">
-              <div class="modal-product-text">
-                <h3 class="modal-product-title">Cabbage Basket</h3>
-                <p class="modal-product-plant">Plant</p>
-              </div>
-              <div class="modal-product-image">
-                <img
-                  class="modal-product-photo"
-                  srcset="./images/man-photo-1-2x.jpg 2x"
-                  src="./images/man-photo-1.jpg"
-                  alt="man photo"
-                  width="94"
-                  height="78"
-                />
-                />
-              </div>
-              <!-- Checkbox -->
-              <div class="modal-checkbox">
-                <label class="label-check" for="1.1">
-                  <input
-                    name="basket"
-                    class="modal-check"
-                    type="checkbox"
-                    id="1.1"
-                    checked
-                  />
-                </label>
-                <!-- <input
-                  type="checkbox"
-                  id="cabbage-check"
-                  name="cabbage-check"
-                  value="true"
-                  class="modal-check visually-hidden"
-                  checked
-                />
-                <label for="label-check" class="check-text">
-                  <span class="accept-check"></span>
-                </label> -->
-              </div>
-            </li>
-            <li class="modal-product-item">
-              <div class="modal-product-text">
-                <h3 class="modal-product-title">Tomato Basket</h3>
-                <p class="modal-product-plant">Plant</p>
-              </div>
-              <div class="modal-product-image">
-                <img
-                  class="modal-product-photo"
-                  srcset="./images/man-photo-1-2x.jpg 2x"
-                  src="./images/man-photo-1.jpg"
-                  alt="man photo"
-                  width="94"
-                  height="78"
-                />
-              </div>
-              <div class="modal-checkbox">
+        <section>
+          <div class="container">
+            <ul class="modal-check">
+              <li class="modal-check-product">
                 <input
                   type="checkbox"
-                  id="tomato-check"
-                  name="tomato-check"
-                  value="true"
-                  class="modal-check visually-hidden"
+                  name="cabbage"
+                  id="cabbage"
+                  class="modal-product-input"
+                  hidden
                 />
-                <label for="tomato-check" class="check-text">
-                  <span class="accept-check">
-                    <svg class="modal-check" width="16" height="16">
-                      <use href="./images/icons.svg#icon-check"></use>
+                <label for="cabbage" class="check-product-label">
+                  <span class="item-check">
+                    <svg class="icon-check">
+                      <use href="./css/icons.svg#icons-pick"></use>
                     </svg>
                   </span>
                 </label>
-              </div>
-            </li>
-            <li class="modal-product-item">
-              <div class="modal-product-text">
-                <h3 class="modal-product-title">Vegetables Basket</h3>
-                <p class="modal-product-plant">Plant</p>
-              </div>
-              <div class="modal-product-image">
+                <div class="product-text">
+                  <h3 class="product-text-article">Cabbage Basket</h3>
+                  <p class="product-text-paragraph">Plant</p>
+                </div>
+                <!-- pICTURES -->
                 <img
-                  class="modal-product-photo"
-                  srcset="./images/man-photo-1-2x.jpg 2x"
-                  src="./images/man-photo-1.jpg"
-                  alt="man photo"
-                  width="94"
-                  height="78"
+                  src="./images/product/cabbage.png"
+                  alt="Cabbage Basket"
+                  class="product-img"
                 />
-              </div>
-              <div class="modal-checkbox">
+              </li>
+              <li class="modal-check-product">
                 <input
                   type="checkbox"
-                  id="vegetables-check"
-                  name="vegetables-check"
-                  value="true"
-                  class="modal-check visually-hidden"
+                  name="tomato"
+                  id="tomato"
+                  class="modal-product-input"
+                  hidden
                 />
-                <label for="vegetables-check" class="check-text">
-                  <span class="accept-check">
-                    <svg class="modal-check" width="16" height="16">
-                      <use href="./images/icons.svg#icon-check"></use>
+                <label for="tomato" class="check-product-label">
+                  <span class="item-check">
+                    <svg class="icon-check">
+                      <use href="./css/icons.svg#icons-pick"></use>
                     </svg>
                   </span>
                 </label>
-              </div>
-            </li>
-          </ul>
-        </div>
+                <div class="product-text">
+                  <h3 class="product-text-article">Tomato Basket</h3>
+                  <p class="product-text-paragraph">Plant</p>
+                </div>
+                <!-- pICTURES -->
+                <img
+                  src="./images/product/tomato.png"
+                  alt="Tomato Basket"
+                  class="product-img"
+                />
+              </li>
+              <li class="modal-check-product">
+                <input
+                  type="checkbox"
+                  name="vegetables"
+                  id="vegetables"
+                  class="modal-product-input"
+                  hidden
+                />
+                <label for="vegetables" class="check-product-label">
+                  <span class="item-check">
+                    <svg class="icon-check">
+                      <use href="./css/icons.svg#icons-pick"></use>
+                    </svg>
+                  </span>
+                </label>
+                <div class="product-text">
+                  <h3 class="product-text-article">Vegetables Basket</h3>
+                  <p class="product-text-paragraph">Plant</p>
+                </div>
+                <!-- pICTURES -->
+                <img
+                  src="./images/product/vegetables-basket.png"
+                  alt="Vegetables Basket"
+                  class="product-img"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <!-- Inputs -->
         <div>
           <form class="modal-form">
